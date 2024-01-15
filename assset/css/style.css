@@ -1,6 +1,7 @@
 :root{
     --primary_color: #FF5400;
     --element_width: 1170px;
+    --text_black_color: #131318;
 }
 *{
     margin: 0;
@@ -158,9 +159,24 @@ main #explore_travel #inner_explore_travel form #search-fields button{
 
 #popular_tour{
     display: flex;
+    gap: 1rem;
     align-items: center;
 }
+#popular_tour div h2{
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--text_black_color, black);
+    margin-bottom: 1.3rem;
+}
+#popular_tour div ul li,#popular_tour div p,#popular_tour div ul{
+    margin-top: 1.2rem;
+    width: 80%;
+}
 
+#popular_tour div img{
+    height: 100%;
+    object-fit: cover;
+}
 #reasons_card{
     display: flex;
     gap: 2vw;
@@ -181,4 +197,16 @@ main #explore_travel #inner_explore_travel form #search-fields button{
     margin: 0 auto 4rem auto;
     background-color: rgba(233, 68, 68, 0.05);
     
+}
+
+#read_btn{
+    color:white;
+    background-color: var(--primary_color, orange);
+    border:none;
+    outline: none;
+    border-radius: 8px;
+    padding: 1rem 2rem 1rem 2rem;
+    font-size: 1.3rem;
+    font-weight: 800;
+    margin-top: 2rem;
 }
