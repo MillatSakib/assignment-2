@@ -210,3 +210,121 @@ main #explore_travel #inner_explore_travel form #search-fields button{
     font-weight: 800;
     margin-top: 2rem;
 }
+#destination_merketing1, #destination_merketing2, #destination_merketing3{
+    display: flex;
+    gap:1.2rem;
+    margin-top: 1.2rem;
+    grid-template-columns: repeat(46, 1fr);
+    grid-template-rows: 300px 286px 300px;
+}
+
+#destination h3{
+    font-size: 2.5rem;
+    color: var(--text_black_color, black);
+    text-align: center;
+    margin: 5rem auto 1.5rem auto;
+
+}
+
+#destination p{
+    margin: 0 auto;
+    text-align:center;
+    width:50%;
+    max-width: 670px;
+}
+
+#maldivs{
+    display: flex;
+    grid-column: 1/2;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 573px;
+    font-size: 1.8rem;
+    font-weight: 800;
+    background-image: url(../imeges/Rectangle5.png);
+    background-repeat: no-repeat;
+    height: 300px;
+    border-radius: 16px;
+}
+#indonesia{
+    display: flex;
+     grid-column: 2/-1;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 573px;
+    font-size: 1.8rem;
+    font-weight: 800;
+    background-image: url(../imeges/Rectangle_8.png);
+    background-repeat: no-repeat;
+    height: 300px;
+    border-radius: 16px;
+}
+#srilanka{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 374px;
+    font-size: 1.8rem;
+    font-weight: 800;
+    background-image: url(../imeges/Rectangle6.png);
+    background-repeat: no-repeat;
+    height: 286px;
+    border-radius: 16px;
+}
+#north_america{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 474px;
+    font-size: 1.8rem;
+    font-weight: 800;
+    background-image: url(../imeges/Rectangle7.png);
+    background-repeat: no-repeat;
+    height: 286px;
+    border-radius: 16px;
+}
+#kashmir{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 274px;
+    font-size: 1.8rem;
+    font-weight: 800;
+    background-image: url(../imeges/Rectangle_9.png);
+    background-repeat: no-repeat;
+    height: 286px;
+    border-radius: 16px;
+}
+#bangladesh{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 473px;
+    font-size: 1.8rem;
+    font-weight: 800;
+    background-image: url(../imeges/Rectangle_11.png);
+    background-repeat: no-repeat;
+    height: 300px;
+    border-radius: 16px;
+}
+
+#bandarban{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 673px;
+    font-size: 1.8rem;
+    font-weight: 800;
+    background-image: url(../imeges/Rectangle_10.png);
+    background-repeat: no-repeat;
+    height: 300px;
+    object-fit: fill;
+    border-radius: 16px;
+}
