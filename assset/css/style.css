@@ -6,29 +6,36 @@
     margin: 0;
     padding: 0;
     font-family: 'Mulish', sans-serif;
+    box-sizing: border-box;
     
 }
 body{
     background-color: #fff;
-    width: 90%;
-    max-width: 1440px;
-    margin: 0 auto
+    width:90%;
+    max-width: var(--element_width);
+    margin: 0 auto;
 }
 
+#nav{
+    display: flex;
+}
+
+
 header{
-    width: var(--element_width);
+    width: 100%;
+    max-width: var(--element_width);
     margin: 2rem auto 0 auto;
 }
 
 header div ul li{
     list-style-type: none;
-    margin:1.3rem;
     font-size: 1.1rem;
 
 }
 
 header div ul{
     display: flex;
+    gap: 1rem
 }
 
 header div ul li:first-child{
@@ -39,6 +46,7 @@ header div ul li:first-child{
 #header{
     display: flex;
     gap: 1rem;
+    width: (calc--element_width);
     align-items: center;
     justify-content: space-between;
 }
@@ -53,9 +61,12 @@ header div ul li:first-child{
     margin-left: 1rem;
 }
 
-#nav{
-    display: flex;
+
+main{
+    width: 100%;
+    max-width: var(--element_width);
 }
+
 
 main #explore_travel{
     background-image: url("../../assset/imeges/Group_13.png");
@@ -63,7 +74,8 @@ main #explore_travel{
     border-radius: 1rem;
     margin: 3rem auto 5rem auto;
     background-repeat: no-repeat;
-    width: var(--element_width);
+    width: 100%;
+    max-width: var(--element_width);
     height: 500px;
 
 }
@@ -81,7 +93,92 @@ main #explore_travel #inner_explore_travel{
     z-index: 100;
 }
 
+main #explore_travel #inner_explore_travel h1{
+    font-size: 4rem;
+}
+main #explore_travel #inner_explore_travel p{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 200;
+    width: 50%;
+    margin: 1rem auto 2rem auto;
+}
+
+main #explore_travel #inner_explore_travel form{
+    background-color: rgba(255, 255, 255, 0.30);
+    padding: 1rem;
+    border-radius: 5px
+}
+
+main #explore_travel #inner_explore_travel form #search-fields{
+    display: flex;
+    gap: 1.2rem
+}
+
+main #explore_travel #inner_explore_travel form #search-fields input{
+    padding: 1rem 2rem 1rem 1rem;
+    border:none;
+    border-radius: 8px;
+    outline: none;
+}
+main #explore_travel #inner_explore_travel form #search-fields select{
+    padding: 1.2rem 4rem 1rem 1rem;
+    height: 60px;
+    border:none;
+    color:rgba(19, 19, 24, 0.50);
+    appearance: none;
+    border-radius: 8px;
+    outline: none;
+    
+}
+.dropdown{
+    position: relative;
+}
+.dropdown span{
+    position: absolute;
+    top:17px;
+    right:10px;
+    font-size: 2rem;
+    color:rgba(19, 19, 24, 0.50);
+}
+
+main #explore_travel #inner_explore_travel form #search-fields button{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    padding: 1rem 2rem 1rem 2rem;
+    font-size: 1rem;
+    font-weight: 700;
+    color:white;
+    background-color: var(--primary_color);
+    border: none;
+    outline: none;
+    border-radius: 8px;
+}
+
 #popular_tour{
     display: flex;
     align-items: center;
+}
+
+#reasons_card{
+    display: flex;
+    gap: 2vw;
+}
+
+.reasons_card{
+    width: 39%;
+    margin-bottom: 1rem
+}
+
+#reasons_card .first_card{
+    background-color: rgba(251, 181, 99, 0.05);
+}
+#reasons_card .second_card{
+    background-color: rgba(41, 206, 246, 0.05);
+}
+.third_card{
+    margin: 0 auto 4rem auto;
+    background-color: rgba(233, 68, 68, 0.05);
+    
 }

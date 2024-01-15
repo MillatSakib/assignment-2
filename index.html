@@ -11,6 +11,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap"
         rel="stylesheet">
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
     <header><div id="header"><div id="nav"><img src="./assset/imeges/Group_40071.png"> <div>Hero <span>Travel</span></div></div>
@@ -26,23 +28,41 @@
                 <h1>Explore Your Travel</h1>
                 <p>Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio enim ac quis sapien urna eu
                 phasellus.</p>
-                <div>
+                
                     <form>
-                        <div class="search-fields">
-                            <label for="where">Where to go:</label>
-                            <input type="text" id="where" name="where">
-                    
-                            <label for="when">When:</label>
-                            <input type="date" id="when" name="when">
-                    
-                            <label for="type">Select Type:</label>
+                        <div id="search-fields">
+                            <input type="text" placeholder="Where go">
+                            <div class="dropdown">
                             <select id="type" name="type">
-                                <option value="">Choose a type</option>
+                                <option value="">When</option>
+                                <option value="Summer">Summer</option>
+                                <option value="Autumn">Autumn</option>
+                                <option value="Winter">Winter</option>
+                                <option value="Spring">Spring</option>
+                                
                             </select>
+
+                            <span class="material-symbols-outlined">
+                                expand_more
+                            </span>
+                            </div>
+                            <div class="dropdown">
+                            <select id="type" name="type">
+                                <option value="">Select Type</option>
+                                <option value="">Solo</option>
+                                <option value="">Family</option>
+                                <option value="">Friends</option>
+                            </select><span class="material-symbols-outlined">
+                                expand_more
+                            </span>
+                            </div>
+                            <button type="submit"><span class="material-symbols-outlined">
+                                search
+                            </span>Find Now</button> 
                         </div>
-                        <button type="submit">Find Now</button>
+                        
                     </form>
-                </div>
+                
             </div>
         </div>
 
@@ -64,7 +84,41 @@
             <img src="./assset/imeges/Rectangle4.png" alt="">
         </div>
         </div>
+
+        <div>
+            <h3>Choose Your destination</h3>
+            <p>Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh
+            pellentesque.</p>
+            <div>
+                <div id="maldivs">Maldives</div>
+                <div id="indonesia">Indonesia</div>
+                <div id="srilanka">Srilanka</div>
+                <div id="north_america">North America</div>
+                <div id="kashmir">Kashmir</div>
+                <div id="bangladesh">Bangladesh</div>
+                <div id="bandarban">Bandarban</div>
+            </div>
+        </div>
+
+        <div id="choode_reason">
+            <h2>Why Choose Us</h2>
+            <p>Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh
+            pellentesque.</p>
+            <div id="reasons_card">
+                <div class="reasons_card first_card"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, modi repellendus atque minima quidem illo, soluta perspiciatis sequi in excepturi incidunt, beatae rerum deleniti minus necessitatibus sapiente aliquid nemo. Omnis?
+                </p></div>
+                <div class="reasons_card second_card"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, modi repellendus atque minima quidem illo, soluta perspiciatis sequi in excepturi incidunt, beatae rerum deleniti minus necessitatibus sapiente aliquid nemo. Omnis?
+                </p></div>
+            </div>
+            <div class="reasons_card third_card">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, modi repellendus atque minima quidem illo, soluta
+                    perspiciatis sequi in excepturi incidunt, beatae rerum deleniti minus necessitatibus sapiente aliquid nemo.
+                    Omnis?
+                </p>
+            </div>
+        </div>
     </main>
-    <footer></footer>
+    <footer>
+    </footer>
 </body>
 </html>
