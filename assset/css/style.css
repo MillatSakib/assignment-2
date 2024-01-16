@@ -184,6 +184,14 @@ main #explore_travel #inner_explore_travel form #search-fields button {
   object-fit: cover;
 }
 
+.bg_primary{
+  color: var(--primary_color, orange);
+}
+
+.destination-paragraph{
+  margin-bottom: 1.5rem;
+}
+
 #read_btn {
   color: white;
   background-color: var(--primary_color, orange);
@@ -609,4 +617,60 @@ footer p {
 .c7 {
   grid-column: 1 / -1;
   background-image: url(../imeges/Rectangle_10.png);
+}
+
+
+#reviews{
+  background-color:  rgb(248, 246, 241);
+  margin-top: 2rem;
+  padding: 2rem;
+  border-radius: 8px;
+  
+}
+.reviews{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .8rem;
+  margin-bottom: 1rem;
+}
+
+.reviews hr{
+  border:1px solid #5a5a5d;
+  
+}
+
+.user_review{
+  margin-top: 20px;
+}
+
+.user_review{
+  background-color: rgb(255, 244, 229);
+  border: 1px solid rgb(255, 225, 170);
+  padding: .8rem;
+  border-radius: 8px;
+}
+
+.reviews button{
+  color: white;
+  background-color: var(--primary_color, orange);
+  border: none;
+  outline: none;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+
+}
+
+.user_review .name{
+  font-weight: bolder;
+}
+
+.user_review p::first-letter{
+  font-size: 1.5rem
+}
+
+.user_review .date{
+  font-weight: 400;
+   font-style: italic;
+   color: #5a5a5d;
 }

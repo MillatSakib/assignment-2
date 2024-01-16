@@ -47,6 +47,13 @@ iframe {
     width:auto;
 }
 
+.reviews{
+  flex-direction: column;
+  
+}
+
+
+
 #popular_tour div img {
   height: 100%;
   width: 100%;
