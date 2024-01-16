@@ -39,7 +39,16 @@ main #explore_travel #inner_explore_travel form #search-fields select{
     width: 100%;
 }
 
+  .perfect-content {
+  flex-direction: column;
+  align-items: center;
+}
 
+
+ iframe{
+    width: 80vw;
+    height: 300px;
+  }
 
 #newsletter {
     flex-direction: column;
@@ -80,6 +89,9 @@ main #explore_travel #inner_explore_travel form #search-fields select{
   .subcard {
     padding: 26px;
   }
+
+ 
+
 }
 
 @media (min-width: 992px) {
@@ -100,10 +112,7 @@ main #explore_travel #inner_explore_travel form #search-fields select{
   .subcard {
     padding: 35px;
   }
-  .perfect-content {
-  flex-direction: column;
-}
-
+  
 }
 
 
