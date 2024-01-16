@@ -270,6 +270,7 @@ main #explore_travel #inner_explore_travel form #search-fields button {
 }
 .third_card {
   margin: 0 auto 4rem auto;
+  max-width: 50%;
   background-color: rgba(233, 68, 68, 0.05);
   border: 1px solid rgba(233, 68, 68, 0.2);
 }
@@ -381,6 +382,7 @@ main #explore_travel #inner_explore_travel form #search-fields button {
 }
 
 iframe {
+  border-radius: 16px;
   width: 400px;
   height: 250px;
 }
@@ -673,4 +675,19 @@ footer p {
   font-weight: 400;
    font-style: italic;
    color: #5a5a5d;
+}
+
+.more-btn,.book_btn {
+color: white;
+background-color: var(--primary_color, orange);
+border: none;
+outline: none;
+padding: 1rem 2rem;
+border-radius: 8px;
+font-weight: bold;
+}
+
+.icon_element{
+  color: var(--primary_color, orange);
+  font-weight: 700;
 }

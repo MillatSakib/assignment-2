@@ -46,7 +46,9 @@ iframe {
 #body{
     width:auto;
 }
-
+.third_card {
+max-width: 90%;
+}
 .reviews{
   flex-direction: column;
   
