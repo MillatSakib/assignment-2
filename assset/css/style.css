@@ -12,7 +12,7 @@
     box-sizing: border-box;
     
 }
-body{
+#body{
     background-color: #fff;
     width:90%;
     max-width: var(--element_width);
@@ -379,3 +379,79 @@ main #explore_travel #inner_explore_travel form #search-fields button{
     font-weight: 800;
     margin: 2rem 0 1rem 2rem;
 } 
+
+#form{
+    border: 1px solid var(--primary_color);
+    border-radius: 16px;
+    width: 40%
+
+}
+
+#newsletter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+#form{
+    width:100%;
+    padding: 50px;
+}
+
+#newsletter #form h2{
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color:var(--text_black_color);
+}
+#newsletter #form hr{
+    margin: 1.5rem auto 1.5rem auto;
+    border: 1px solid rgba(19, 19, 24, 0.10);
+}
+
+#newsletter p{
+    font-family: 1rem;
+}
+
+#newsletter #form input{
+    color:rgba(19, 19, 24, 0.30);
+    background-color: rgba(19, 19, 24, 0.05);
+    border: none;
+    outline: none;
+    width: 90%;
+    padding: 1rem 0 1rem 1.5rem;
+    margin: 1rem auto 0 auto;
+    border-radius: 8px;
+}
+
+#newsletter #form input[type="button"]{
+    background-color: var(--primary_color);
+    color: white;
+    font-weight: 800;
+    font-size: 1.2rem
+}
+
+#disc{
+ position: relative;
+}
+#disc div{
+ position: absolute;
+ top: 322px;
+ right: 5px;
+ z-index: 500;
+ color: white;
+ background-color: var(--primary_color, orange);
+ border-radius: 8px;
+ rotate: 20;
+ transform: rotate(-19.628deg);
+ text-align: center;
+}
+
+#disc div p{
+    padding-top: 1rem;
+}
+#disc div h3{
+    padding: 0 1.5rem .8rem 1.5rem;
+}
+
