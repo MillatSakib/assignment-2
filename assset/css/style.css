@@ -455,3 +455,59 @@ main #explore_travel #inner_explore_travel form #search-fields button{
     padding: 0 1.5rem .8rem 1.5rem;
 }
 
+
+
+footer{
+    margin-top: 5rem;
+    width: 100vw;
+    background-color: rgba(19, 19, 24, 0.05);
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5rem;
+    gap: 1.5rem;
+}
+#logo img{
+    height: 40px;
+    width: 46px;
+}
+#logo div{
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+#logo div span{
+    color: var(--primary_color)
+}
+
+footer p{
+    width: 50%;
+    text-align: center;
+    margin: 1rem auto 2rem auto;
+}
+
+#social_container{
+    text-align: center;
+    
+}
+
+#social_container .social{
+    font-size: 1.5rem;
+    margin: 8px;
+    
+}
+
+#social_container hr{
+    margin: 50px;
+}
+
+#rights{
+    text-align: center;
+    padding-bottom: 100px;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+}
