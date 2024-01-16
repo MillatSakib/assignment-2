@@ -1,6 +1,50 @@
+@media only screen and (max-width: 820px) and (min-width: 600px){
+  #nav img{
+    height: 55px;
+    width: auto;;
+  }
+  #header img {
+    width: 48px;
+}
+  #header div{
+    font-size:1.5rem ;
+  }
+  main #explore_travel #inner_explore_travel h1{
+    font-size: 2rem;
+  }
+  main #explore_travel #inner_explore_travel p {
+    text-align: center;
+    font-size: .7rem;
+    font-weight: 200;
+    width: 90%;
+  }
+
+}
+@media only screen and (max-width: 1050px){
+  .perfect-content {
+    flex-direction: column;
+}
+}
+
+
+
+
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+     
+main #explore_travel #inner_explore_travel form #search-fields {
+  flex-wrap: wrap;
+}
+
+
+iframe {
+  width: 550px;
+  height: 300px;
+}
+}
+
 @media only screen and (max-width: 600px){
 #body{
-    width:100vw;
+    width:auto;
 }
 
     #mobile_mode{
@@ -89,9 +133,14 @@ main #explore_travel #inner_explore_travel form #search-fields select{
   .subcard {
     padding: 26px;
   }
+}
 
- 
-
+@media only screen and (max-width: 950px){
+    #popular_tour{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 @media (min-width: 992px) {
@@ -100,6 +149,7 @@ main #explore_travel #inner_explore_travel form #search-fields select{
   .deal-card3 {
     padding: 40px;
   }
+
   .deal-card2 {
     align-items: center;
     justify-content: flex-start;
@@ -119,5 +169,38 @@ main #explore_travel #inner_explore_travel form #search-fields select{
 @media (min-width: 1200px) {
   .subcard {
     padding: 40px;
+  }
+}
+
+
+
+@media (min-width: 992px) {
+  .c1 {
+    grid-column: 1 / 7;
+    height: 300px;
+  }
+  .c2 {
+    grid-column: 7 / -1;
+    height: 300px;
+  }
+  .c3 {
+    grid-column: 1 / 5;
+    height: 286px;
+  }
+  .c4 {
+    grid-column: 5 / 10;
+    height: 286px;
+  }
+  .c5 {
+    grid-column: 10 / -1;
+    height: 286px;
+  }
+  .c6 {
+    grid-column: 1 / 6;
+    height: 300px;
+  }
+  .c7 {
+    grid-column: 6 / -1;
+    height: 300px;
   }
 }
