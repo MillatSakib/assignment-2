@@ -47,6 +47,12 @@ iframe {
     width:auto;
 }
 
+#popular_tour div img {
+  height: 100%;
+  width: 100%;
+}
+
+
     #mobile_mode{
     display: block;
     padding: 1rem;
